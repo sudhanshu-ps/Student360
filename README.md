@@ -48,8 +48,8 @@ Attendance is stored as individual records (date, subject, present or absent), p
 
 With `A` classes attended, `H` classes held and a target of `T`%:
 
-- If `A ├ù 100 ΓëÑ T ├ù H`, you're safe, and you can still skip `floor(A ├ù 100 / T) ΓêÆ H` classes.
-- Otherwise you must attend the next `ceil((T ├ù H ΓêÆ 100 ├ù A) / (100 ΓêÆ T))` classes in a row.
+- If `A × 100 ≥ T × H`, you're safe, and you can still skip `floor(A × 100 / T) − H` classes.
+- Otherwise you must attend the next `ceil((T × H − 100 × A) / (100 − T))` classes in a row.
 
 ## What makes it different
 
