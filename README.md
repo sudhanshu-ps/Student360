@@ -137,7 +137,3 @@ More ideas are tracked on the in-app **Updates** page.
 ## Contributing
 
 Ideas and fixes are welcome. Open an issue to talk about a change, or fork the repo and send a pull request. If you add a new college's grading scale, we'd love to see it.
-
-## Licence
-
-Released under the [MIT Licence](LICENSE).
