@@ -26,7 +26,7 @@ function Updates() {
   </p>
   <ul className="mt-3 grid gap-4 sm:grid-cols-3">
     <li>
-      <p className="text-sm font-medium text-foreground">Sudhanshu</p>
+      <p className="text-sm font-medium text-foreground">Sudhanshu Pratap Singh</p>
       <p className="text-xs text-muted-foreground">Project Lead</p>
     </li>
     <li>
