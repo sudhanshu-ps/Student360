@@ -20,6 +20,30 @@ function Updates() {
         ))}
       </div>
       <p className="mt-6 text-xs text-muted-foreground">Built with React, TanStack, Tailwind CSS, Recharts, Radix UI, lucide icons and date-fns — thanks to their open-source authors.</p>
+      <div className="mt-8 border-t border-border pt-6">
+  <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+    Built by
+  </p>
+  <ul className="mt-3 grid gap-4 sm:grid-cols-3">
+    <li>
+      <p className="text-sm font-medium text-foreground">Sudhanshu</p>
+      <p className="text-xs text-muted-foreground">Project Lead</p>
+    </li>
+    <li>
+      <p className="text-sm font-medium text-foreground">Sunit Majhi</p>
+      <p className="text-xs text-muted-foreground">Testing and Documentation</p>
+    </li>
+    <li>
+      <p className="text-sm font-medium text-foreground">Arihant Jain</p>
+      <p className="text-xs text-muted-foreground">Research and Development</p>
+    </li>
+     <li>
+      <p className="text-sm font-medium text-foreground">Vinayak Bhardwaj</p>
+      <p className="text-xs text-muted-foreground">Social Media and Promotion</p>
+    </li>
+  </ul>
+  <p className="mt-6 text-xs text-muted-foreground">© 2026 Student360</p>
+</div>
     </>
   );
 }
