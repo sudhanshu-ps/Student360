@@ -53,34 +53,34 @@ With `A` classes attended, `H` classes held and a target of `T`%:
 
 ## What makes it different
 
-- **Open source (MIT).** Anyone can use it, change it, or build on it.
 - **Configurable for any college.** Attendance target, grading scale, exam weightages and semester names are all editable in Settings, so it isn't tied to one university's rules.
 - **Private by design.** There are no accounts and no servers. Everything is stored in your own browser, and nothing leaves your device.
 - **Free to run.** No paid services, no API keys, and it works offline once loaded.
 - **Your data stays yours.** Export everything to a JSON file and import it back whenever you like.
 
 ## Try it
-
-You don't need to set anything up to see it working properly:
-
+ 
+The quickest way is the live demo: **https://student360.student360.workers.dev/**. There's nothing to install and no account to make.
+ 
 1. Open the app and go to **Settings**.
 2. Click **Load demo data**. The app fills with sample subjects, attendance, marks, exams and expenses.
 3. Look around: the Dashboard, the Insights page and the Attendance page show the most.
 4. Click **Clear all data** to start fresh, the way a new student would.
-
 New users always start with an empty app. The demo data only appears when you ask for it.
-
-## Run it on your computer
-
-You'll need [Node.js](https://nodejs.org) (version 18 or newer) and [Git](https://git-scm.com).
-
+ 
+Everything you enter is saved in your own browser, so it stays on your device and isn't uploaded anywhere.
+ 
+## Run it on your computer (optional)
+ 
+The live demo needs no setup. To run your own copy, you'll need [Node.js](https://nodejs.org) (version 18 or newer) and [Git](https://git-scm.com).
+ 
 ```bash
 git clone https://github.com/sudhanshu-ps/Student360.git
 cd Student360
 npm install
 npm run dev
 ```
-
+ 
 Then open the local address shown in your terminal (usually `http://localhost:5173`).
 
 ## Built with
