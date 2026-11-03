@@ -1,3 +1,4 @@
+
 import { Link, useLocation } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 import {
@@ -5,6 +6,8 @@ import {
   Timer, Wallet, PartyPopper, Activity, MessageCircle, Settings, Sparkles, Moon, Sun, Menu,
 } from "lucide-react";
 import { store, useData } from "@/lib/store";
+import logo_light from "@/assets/Logo-light.png";
+import logo_dark from "@/assets/Logo-dark.png";
 
 export const NAV = [
   { to: "/today", label: "Today", icon: CalendarClock },
@@ -46,8 +49,14 @@ export function AppShell({ children }: { children: ReactNode }) {
     <div className="min-h-screen bg-background">
       <aside className="fixed inset-y-0 left-0 hidden w-60 flex-col border-r bg-sidebar px-3 py-5 lg:flex">
         <Link to="/" className="mb-6 flex items-center gap-2 px-3">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-primary font-display text-lg font-bold text-primary-foreground">S</span>
-          <span className="font-display text-xl font-bold">Student360</span>
+        <img src={logo_dark} alt="Student360 logo" className="h-9 w-9 rounded-xl object-cover dark:hidden" />
+        <img src={logo_light} alt="Student360 logo" className="hidden h-9 w-9 rounded-xl object-cover dark:block" />
+          <span className="font-display text-xl font-bold" 
+          style={{ fontFamily: '"Nova Square", sans-serif', fontWeight: 500, fontSize: 24
+          
+          
+           }}
+          >STUDENT360</span>
         </Link>
         <nav className="flex-1 space-y-0.5 overflow-y-auto">
           {NAV.map((n) => {
